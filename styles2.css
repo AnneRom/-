@@ -1,0 +1,54 @@
+body {
+  background-color: #f3ecc2;
+  font-family: system-ui;
+  font-weight: 100;
+  line-height: 150%;
+  font-variant: normal;
+  text-decoration: none;
+padding: 30px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f9d56e;
+  border-width: 5px;
+  width: 100%;
+}
+h1 {
+  color: #14b1ab;
+  font-weight: 300;
+}
+h3 {
+  color: #e8505b;
+}
+
+.header, .footer {
+   background: #D5BAE4;
+   height: 20px;
+   color: #e8505b;}
+
+   .layout { overflow: hidden; }
+   .col1 { background: #C7E3E4; float: left; width: 200px; height: 350px;}
+     .col2 { background: #E0D2C7; float: left; width: 400px; text-align: center; height: 200px; padding-top: 150px;}
+     .col3 { background: #ECD5DE;
+      margin-left: 600px; /* Отступ слева на ширину колонок 1 и 2 */
+     }
+
+   .menu_nav {
+list-style: none; /* ховаємо маркери */
+}
+.menu_nav li {
+/* розташовуємо елементи списку в один ряд */
+margin-right: 15px; /* робимо відступ, щоб пункти меню не зливалися */
+}
+a {text-decoration: none;} /*Прибираємо підкреслення посилання*/
+.menu_nav li a {
+display: block; /* змінюємо відображення на блок, щоб мати можливість задавати внутрішні відступи */
+padding: 3px 5px;
+color: #000;
+position: relative;
+}
+.menu_nav li a:hover {
+background: #d2b48c;
+color: #fff;
